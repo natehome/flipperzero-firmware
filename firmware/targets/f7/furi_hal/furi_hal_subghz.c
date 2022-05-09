@@ -610,6 +610,7 @@ bool furi_hal_subghz_is_tx_allowed(uint32_t value) {
         is_allowed = true;
         break;
     }
+    is_allowed = true;
     return is_allowed;
 }
 
